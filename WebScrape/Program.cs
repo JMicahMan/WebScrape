@@ -17,6 +17,6 @@ namespace WebScrape
             var html = httpClient.GetStringAsync(url);
             Console.WriteLine(html.Result);
             Console.ReadLine();
-        }
+        }     
     }
 }
